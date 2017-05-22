@@ -17,7 +17,7 @@ To quickly deploy a highly-available set of Virtual Machines (VMs), follow the s
 
 4.	You will see the following screen in your Azure Portal.  Under **Subscription**, choose **Microsoft Azure Sponsorship** (or the name of the subscription that is tied to your $360,000 Azure credits).  
 
-> ![](/images/edit-arm-portal.png)
+> <img src="/images/arm-deploy-portal.png" width="700">
 
 5.	Under **Resource Group**, create a new resource group.  This is a logical grouping for your services, so choose a name that makes sense for the logical container where your services will be grouped.  
 
@@ -34,6 +34,8 @@ To quickly deploy a highly-available set of Virtual Machines (VMs), follow the s
 11.	Under **VM Size**, choose **Standard_D2_v2** for a general-purpose VM with 2 cores and 7 GBs memory.  See [Linux VM Sizes](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes) or [Windows VM Sizes](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-sizes) for a complete list of VM sizes.  
 
 12.	[OPTIONAL]: To view the ARM template JSON file and to edit it from the Azure Portal, click on “Edit template”.  
+
+> ![](/images/edit-arm-portal.png)
  
 * On the left pane, you’ll see your **Parameters** (we filled these out in steps 7-11), **Variables**, and **Resources**.  Click on any of these items to quickly locate them in the editor on the right.  
 
