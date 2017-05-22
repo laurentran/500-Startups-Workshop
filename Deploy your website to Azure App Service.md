@@ -59,12 +59,9 @@
 
 * Navigate to **site** -> **wwwroot** to view the files that you deployed from Github (or other source).
 
-<img src="/images/kudu-console-2.png" width="400">
+> <img src="/images/kudu-console-2.png" width="400">
 
-<img src="/images/kudu-console-3.png" width="400">
-
-> ![](/images/kudu-console-2.png)
-> ![](/images/kudu-console-3.png)
+> <img src="/images/kudu-console-3.png" width="400">
 
 > ![](/images/kudu-console-4.png)
 
