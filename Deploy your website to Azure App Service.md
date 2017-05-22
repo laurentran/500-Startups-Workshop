@@ -1,5 +1,4 @@
 # Microsoft Azure: 500 Startups Workshop
-## Hands-on Lab 1
 ## Deploy your Website on Azure App Service
 
 ### Part 1: Create your Web App
@@ -10,11 +9,11 @@
 
 3. Click **Web + Mobile** -> **Web App**.
 
-> ![](/images/new-web-app.jpg)
+> <img src="/images/new-web-app.jpg" width="500">
 
 4.	Fill out the **App Name**, and under the **Subscriptions** drop down, choose the correct subscription.  Your $360k subscription will be named something like **Microsoft Azure Sponsorship**.  Choose the **Microsoft Azure Sponsorship**.
 
-> ![](/images/web-app-details.png)
+> <img src="/images/web-app-details.png" width="300">
    
 5.	Under **Resource Group**, create a new resource group.  This is a logical grouping for your services, so choose a name that makes sense for the resources.  
 (For example, use **Website_RG**.  In the future, you can put resources like storage/databases that serve content for your website in the same resource group.)
@@ -25,8 +24,7 @@
 
 7.	Click **Ok**, check **Pin to dashboard**, and click **Create**.
  
-> ![](/images/pin-to-dashboard.png)
-
+> <img src="/images/pin-to-dashboard.png" width="200">
 
 ### Part 2: Deploy your code from Github or other source control
 
@@ -36,13 +34,13 @@
 
 > ![](/images/dashboard-resources.png)
 
-9.	Go to **Deployment options** to set up your deployment source.  We’ll choose **Github**, but you can choose any of the options shown.  
+9.	Go to **Deployment options** to set up your deployment source.  We’ll choose **Github**, but you can choose any of the options shown. 
 
-> ![](/images/deployment-options.png) ![](/images/deployment-source.png)
+> <img src="/images/deployment-options.png" width="300"><img src="/images/deployment-source.png" width="500">
 
 10)	Configure your **Deployment Source**.  For Github:  Under **Authorization**, add your Github account.  Then choose your **Organization**, and the right **Project** and **Branch** that you want to deploy from.  [If you do not already have a Node.js app to deploy, fork this sample app from: [https://github.com/Azure-Samples/nodejs-docs-hello-world](https://github.com/Azure-Samples/nodejs-docs-hello-world), and point the deployment source to your fork.]
 
-> ![](/images/deployment-source-config.png)
+> <img src="/images/deployment-source-config.png" width="300">
 
 11)	Click **Ok**, and Azure will deploy your code to your Web App.
 
@@ -60,6 +58,10 @@
 15)	Navigate around using the Folder UI.  For example, instead of typing 'cd site', you can just click on the site folder in the folder UI.  The console window automatically navigates to the same folder, so the two halves of the Console are working together.
 
 * Navigate to **site** -> **wwwroot** to view the files that you deployed from Github (or other source).
+
+<img src="/images/kudu-console-2.png" width="400">
+
+<img src="/images/kudu-console-3.png" width="400">
 
 > ![](/images/kudu-console-2.png)
 > ![](/images/kudu-console-3.png)
