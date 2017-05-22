@@ -1,7 +1,5 @@
 # Microsoft Azure: 500 Startups Workshop
-## Hands-on Lab 2
 ## Deploy Highly-Available Linux VMs using Azure Resource Manager
-
 
 [Azure Resource Manager (ARM)](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview) allows you to quickly and easily deploy Azure services through templates.  Using ARM templates, you can deploy, manage, and monitor your resources as a group.  They enable you to manage your infrastructure through declarative JSON templates, rather than scripts.  
 
@@ -15,11 +13,11 @@ To quickly deploy a highly-available set of Virtual Machines (VMs), follow the s
 
 3.	Click on “**Deploy to Azure**”.  This button deep links to the Azure portal and will open your Azure portal in a new window.  
 
-* ![](/images/deploy-to-azure.jpg)
+> <img src="/images/deploy-to-azure.jpg" width="200">
 
 4.	You will see the following screen in your Azure Portal.  Under **Subscription**, choose **Microsoft Azure Sponsorship** (or the name of the subscription that is tied to your $360,000 Azure credits).  
 
-* ![](/images/edit-arm-portal.png)
+> ![](/images/edit-arm-portal.png)
 
 5.	Under **Resource Group**, create a new resource group.  This is a logical grouping for your services, so choose a name that makes sense for the logical container where your services will be grouped.  
 
@@ -39,7 +37,7 @@ To quickly deploy a highly-available set of Virtual Machines (VMs), follow the s
  
 * On the left pane, you’ll see your **Parameters** (we filled these out in steps 7-11), **Variables**, and **Resources**.  Click on any of these items to quickly locate them in the editor on the right.  
 
-* ![](/images/arm-editor.png)
+> <img src="/images/arm-editor.png" width="600">
 
 * Click **Save** or **Discard** to go back.
 
