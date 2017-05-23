@@ -1,11 +1,12 @@
-# Microsoft Azure: 500 Startups Workshop
-## Deploy Highly-Available Linux VMs using Azure Resource Manager
+# 500 Startups Workshop: Microsoft Azure
 
-[Azure Resource Manager (ARM)](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview) allows you to quickly and easily deploy Azure services through templates.  Using ARM templates, you can deploy, manage, and monitor your resources as a group.  They enable you to manage your infrastructure through declarative JSON templates, rather than scripts.  
+[Azure Resource Manager (ARM)](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview) allows you to quickly and easily deploy Azure services through templates.  Using ARM templates, you can deploy, manage, and monitor your resources as a group.  They enable you to manage your infrastructure through declarative JSON templates, rather than scripts. 
+
+## Deploy Highly-Available Linux VMs using Azure Resource Manager 
 
 To quickly deploy a highly-available set of Virtual Machines (VMs), follow the steps below.  
 
-1.	Log into your Azure portal at [portal.azure.com](portal.azure.com) using the Microsoft Account email that you used to register for BizSpark.
+1.	Log into your Azure portal at [portal.azure.com](http://portal.azure.com) using the Microsoft Account email that you used to register for BizSpark.
 
 2.	To create 2 Ubuntu VMs behind a load balancer using an ARM template, go to [Linux VMs Availability Set](https://github.com/mschray/AzureVMCreate).  This template configures your 2 VMs in an Availability Set, which is required for high-availability (no single point of failure).  
 
