@@ -1,9 +1,11 @@
-# Microsoft Azure: 500 Startups Workshop
+# 500 Startups Workshop: Microsoft Azure
 ## Deploy your Website on Azure App Service
+
+This lab steps through how to deploy a Node.js website on Azure Web Apps.  If you have a different backend than Node (Python, PHP, Java), you can still follow along and let us know if you have any questions or need help.
 
 ### Part 1: Create your Web App
 
-1. Log into your Azure portal at [portal.azure.com](portal.azure.com) using the Microsoft Account email that you used to register for BizSpark.
+1. Log into your Azure portal at [portal.azure.com](http://portal.azure.com) using the Microsoft Account email that you used to register for BizSpark.
 
 2. On the left pane, click the green + sign to create a new resource.  
 
@@ -25,6 +27,7 @@
 7.	Click **Ok**, check **Pin to dashboard**, and click **Create**.
  
 > <img src="/images/pin-to-dashboard.png" width="200">
+
 
 ### Part 2: Deploy your code from Github or other source control
 
