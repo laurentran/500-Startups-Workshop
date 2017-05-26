@@ -28,7 +28,7 @@ Here are the steps to create an instance of the Data Science Virtual Machine for
 
 **Password**: First account password (we suggest a password for the first VM you create).
 
-**Subscription**: Use your BizSpark or Academic Subscription
+**Subscription**: Use your Microsoft Azure Sponsorship
 
 **Resource Group**: We suggest creating a new one
 
